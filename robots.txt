@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nathanieltee.github.io/natharaarchive/sitemap.xml
