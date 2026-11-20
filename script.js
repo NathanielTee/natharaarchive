@@ -1688,7 +1688,7 @@
             </div>
 
             <h1 class="reveal-heading font-serif" style="font-size:clamp(3rem, 6.5vw, 84px);font-weight:600;line-height:0.98;letter-spacing:-0.02em;margin:0 0 1.25rem 0;--reveal-delay:90ms;">
-              Serial <span style="font-style:italic;font-weight:400;color:#c9b99f;">SKETSA</span>
+              Serial <span class="accent-sketsa">SKETSA</span>
             </h1>
 
             <p class="reveal-block hero-desc" style="max-width:42rem;font-size:15px;line-height:1.8;color:#b4b0be;margin:0 0 1.75rem 0;--reveal-delay:160ms;">
@@ -2151,7 +2151,7 @@
                   SERIES NOTES // DOKUMENTASI ARSIP
                 </div>
                 <h1 class="font-serif" style="font-size:clamp(2.3rem, 5vw, 54px);font-weight:600;line-height:1.05;margin:0;">
-                  Perkembangan Serial <span style="font-style:italic;font-weight:400;color:#c9b99f;">SKETSA</span>
+                  Perkembangan Serial <span class="accent-sketsa">SKETSA</span>
                 </h1>
               </div>
               <div class="subpage-header-actions">
