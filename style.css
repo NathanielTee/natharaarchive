@@ -1395,11 +1395,11 @@ html.low-power .cursor-glow {
 .accent-sketsa {
   font-style: italic;
   font-weight: 400;
-  background: linear-gradient(100deg, #f7e2ad 0%, #e6bd6e 50%, #cf9741 100%);
+  background: linear-gradient(100deg, #f1dcaa 0%, #e2bf7c 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #e6bd6e;
-  filter: drop-shadow(0 0 16px rgba(230, 189, 110, 0.26));
+  filter: drop-shadow(0 0 14px rgba(226, 191, 124, 0.2));
   padding-right: 0.06em;
 }
