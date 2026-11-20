@@ -2200,7 +2200,7 @@
 
                   ${PROJECT_TIMELINE_MILESTONES.map(
                     (m) => {
-                    const tint = tintAccent((SKETSA_FOLDERS.find((f) => f.id === m.volumeId) || {}).accent);
+                    const tint = tintAccent(((SKETSA_FOLDERS.find((f) => f.id === m.volumeId) || {}).colors || {}).accent);
                     return `
                     <div style="position:relative;padding:1rem 1.15rem;border-radius:0.9rem;background:linear-gradient(90deg, ${m.established ? tint + "26" : "rgba(255,255,255,0.05)"} 0%, rgba(255,255,255,0.05) 55%);border:1px solid rgba(216,195,158,0.18);border-left:3px solid ${m.established ? tint : "rgba(255,255,255,0.13)"};">
                       <span style="position:absolute;left:-1.5rem;top:1.3rem;width:12px;height:12px;border-radius:9999px;background:${
@@ -3254,7 +3254,7 @@
               <!-- Reader Top Bar -->
               <div class="reader-topbar" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.75rem;border-bottom:1px solid rgba(255,255,255,0.1);flex-shrink:0;">
                 <div style="display:flex;align-items:center;gap:0.75rem;min-width:0;">
-                  <span style="width:12px;height:12px;border-radius:9999px;flex-shrink:0;background:${folder.colors.accent};"></span>
+                  <span style="width:12px;height:12px;border-radius:9999px;flex-shrink:0;background:${tintAccent(folder.colors.accent)};box-shadow:0 0 0 3px ${tintAccent(folder.colors.accent)}33, 0 0 14px ${tintAccent(folder.colors.accent)}99;"></span>
                   <span id="reader-modal-title" class="reader-topbar-title font-mono" style="color:#ffffff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
                     ${escapeHtml(folder.series)} — ${escapeHtml(current.label)}
                   </span>
