@@ -1115,9 +1115,28 @@
         const m = /^#?([0-9a-f]{6})$/i.exec(hex || "");
         if (!m) return "#d8c39e";
         const n = parseInt(m[1], 16);
-        const mix = (c) => Math.round(c + (255 - c) * 0.5);
-        const r = mix((n >> 16) & 255), g = mix((n >> 8) & 255), b = mix(n & 255);
-        return "#" + [r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("");
+        const r = ((n >> 16) & 255) / 255, g = ((n >> 8) & 255) / 255, b = (n & 255) / 255;
+        const max = Math.max(r, g, b), min = Math.min(r, g, b), d = max - min;
+        let h = 0;
+        if (d) {
+          if (max === r) h = ((g - b) / d) % 6;
+          else if (max === g) h = (b - r) / d + 2;
+          else h = (r - g) / d + 4;
+          h *= 60;
+          if (h < 0) h += 360;
+        }
+        const l0 = (max + min) / 2;
+        const s0 = d === 0 ? 0 : d / (1 - Math.abs(2 * l0 - 1));
+        // keep the original hue, but make it bright and saturated enough to glow
+        const S = Math.min(1, Math.max(s0, 0.6));
+        const L = 0.6;
+        const c = (1 - Math.abs(2 * L - 1)) * S;
+        const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
+        const mm = L - c / 2;
+        const [r1, g1, b1] =
+          h < 60 ? [c, x, 0] : h < 120 ? [x, c, 0] : h < 180 ? [0, c, x] : h < 240 ? [0, x, c] : h < 300 ? [x, 0, c] : [c, 0, x];
+        const to = (v) => Math.round((v + mm) * 255).toString(16).padStart(2, "0");
+        return "#" + to(r1) + to(g1) + to(b1);
       }
 
       const PROJECT_TIMELINE_MILESTONES = [
