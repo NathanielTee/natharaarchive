@@ -3254,7 +3254,7 @@
               <!-- Reader Top Bar -->
               <div class="reader-topbar" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.75rem;border-bottom:1px solid rgba(255,255,255,0.1);flex-shrink:0;">
                 <div style="display:flex;align-items:center;gap:0.75rem;min-width:0;">
-                  <span style="width:12px;height:12px;border-radius:9999px;flex-shrink:0;background:${tintAccent(folder.colors.accent)};box-shadow:0 0 0 3px ${tintAccent(folder.colors.accent)}33, 0 0 14px ${tintAccent(folder.colors.accent)}99;"></span>
+                  <span id="reader-modal-dot" style="width:12px;height:12px;border-radius:9999px;flex-shrink:0;transition:background 0.3s ease, box-shadow 0.3s ease;background:${tintAccent(folder.colors.accent)};box-shadow:0 0 0 3px ${tintAccent(folder.colors.accent)}40, 0 0 16px 2px ${tintAccent(folder.colors.accent)};"></span>
                   <span id="reader-modal-title" class="reader-topbar-title font-mono" style="color:#ffffff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
                     ${escapeHtml(folder.series)} — ${escapeHtml(current.label)}
                   </span>
@@ -3365,6 +3365,12 @@
 
         const titleEl = document.getElementById("reader-modal-title");
         if (titleEl) titleEl.textContent = `${folder.series} — ${current.label}`;
+        const dotEl = document.getElementById("reader-modal-dot");
+        if (dotEl) {
+          const dotTint = tintAccent(folder.colors.accent);
+          dotEl.style.background = dotTint;
+          dotEl.style.boxShadow = `0 0 0 3px ${dotTint}40, 0 0 16px 2px ${dotTint}`;
+        }
 
         const topbarEl = document.getElementById("mount-reader-topbar-actions");
         if (topbarEl) topbarEl.innerHTML = renderReaderTopbarActions(folder, current, isBookmarked);
