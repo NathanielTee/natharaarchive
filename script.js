@@ -2202,7 +2202,7 @@
                     (m) => {
                     const tint = tintAccent((SKETSA_FOLDERS.find((f) => f.id === m.volumeId) || {}).accent);
                     return `
-                    <div style="position:relative;padding:1rem 1.15rem;border-radius:0.9rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.13);border-left:3px solid ${m.established ? tint : "rgba(255,255,255,0.13)"};">
+                    <div style="position:relative;padding:1rem 1.15rem;border-radius:0.9rem;background:linear-gradient(90deg, ${m.established ? tint + "26" : "rgba(255,255,255,0.05)"} 0%, rgba(255,255,255,0.05) 55%);border:1px solid rgba(216,195,158,0.18);border-left:3px solid ${m.established ? tint : "rgba(255,255,255,0.13)"};">
                       <span style="position:absolute;left:-1.5rem;top:1.3rem;width:12px;height:12px;border-radius:9999px;background:${
                         m.established ? tint : "#2c3a4d"
                       };border:2px solid #0b0b0d;box-shadow:0 0 10px rgba(216,195,158,0.35);"></span>
@@ -2250,7 +2250,7 @@
                 <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:1rem;">
                   ${CONCEPTUAL_PHASES.map(
                     (ph) => `
-                    <div style="padding:1.15rem 1.25rem;border-radius:0.9rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);display:flex;flex-direction:column;gap:0.65rem;">
+                    <div style="padding:1.15rem 1.25rem;border-radius:0.9rem;background:rgba(216,195,158,0.05);border:1px solid rgba(216,195,158,0.16);display:flex;flex-direction:column;gap:0.65rem;">
                       <h3 class="font-serif" style="font-size:20px;font-weight:600;margin:0;color:#d8c39e;">
                         ${escapeHtml(ph.phase)}
                       </h3>
@@ -2304,7 +2304,7 @@
                     ${EDITORIAL_REVIEW_DATA.frequentWords
                       .map(
                         (fw) => `
-                      <div style="padding:0.85rem 1rem;border-radius:0.8rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.13);">
+                      <div style="padding:0.85rem 1rem;border-radius:0.8rem;background:rgba(216,195,158,0.06);border:1px solid rgba(216,195,158,0.18);">
                         <div style="display:flex;align-items:baseline;justify-content:space-between;gap:0.5rem;margin-bottom:0.3rem;">
                           <span class="font-serif" style="font-size:19px;font-style:italic;font-weight:600;color:#ffffff;">“${escapeHtml(
                             fw.word
@@ -2325,7 +2325,7 @@
                   ${EDITORIAL_REVIEW_DATA.patterns
                     .map(
                       (pat) => `
-                    <div style="padding:1.1rem 1.25rem;border-radius:0.9rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);">
+                    <div style="padding:1.1rem 1.25rem;border-radius:0.9rem;background:rgba(216,195,158,0.05);border:1px solid rgba(216,195,158,0.16);">
                       <h3 class="font-serif" style="font-size:20px;font-weight:600;margin:0 0 0.5rem 0;color:#f2f0ec;">
                         ${escapeHtml(pat.title)}
                       </h3>
