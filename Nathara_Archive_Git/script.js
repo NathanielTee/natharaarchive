@@ -4290,5 +4290,13 @@
         update();
       })();
 
-      renderApp();
+      // Safety net: if the first render ever fails, keep the pre-rendered content visible
+      const staticFallbackHtml = (document.getElementById("app") || {}).innerHTML || "";
+      try {
+        renderApp();
+      } catch (err) {
+        console.error("Initial render failed:", err);
+        const appEl = document.getElementById("app");
+        if (appEl && staticFallbackHtml) appEl.innerHTML = staticFallbackHtml;
+      }
     })();
