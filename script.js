@@ -911,29 +911,196 @@
           series: "SKETSA JATUH",
           themeTag: "KERENTANAN & CINTA",
           question: "“Untuk pertama kalinya, bolehkah aku tinggal?”",
-          status: "upcoming",
-          statusLabel: "SEGERA HADIR",
-          instagram: "https://www.instagram.com/natharaarchive/",
+          status: "established",
+          instagram: "https://www.instagram.com/p/DgB5LW9EnRk/",
           colors: {
-            folderBack: "#382420",
-            folderFront: "linear-gradient(145deg, #52342e 0%, #2b1b18 100%)",
-            gradient: "linear-gradient(135deg, #2b1a17 0%, #6b4139 100%)",
-            paper: "#f6f0ed",
-            closingPaper: "#ddd8d5",
-            accent: "#b55d4c",
-            highlightBg: "rgba(181, 93, 76, 0.16)",
-            folderInk: "#ffffff",
+            folderBack: "#3a1418",
+            folderFront: "linear-gradient(135deg, #3a1418 0%, #7d363e 55%, #9e4b52 100%)",
+            gradient: "linear-gradient(135deg, #3a1418 0%, #7d363e 55%, #9e4b52 100%)",
+            paper: "#f5e6e3",
+            closingPaper: "#e9cfcc",
+            accent: "#7d363e",
+            highlightBg: "rgba(158, 75, 82, 0.2)",
+            folderInk: "#fbeee9",
             isLightFolder: false,
-            openingInk: "#ffffff",
+            openingInk: "#fbeee9",
             isLightOpening: false,
           },
           opening: {
-            quote: "“Untuk pertama kalinya, bolehkah aku tinggal?”",
+            quote: "“Beberapa cerita membutuhkan waktu sebelum menemukan arahnya.”",
             author: "Nathara Archive's",
             project: "SKETSA JATUH",
           },
-          issues: [],
-          closing: null,
+          issues: [
+            {
+              id: "jatuh-01",
+              code: "#01",
+              title: "HARI-HARI BERIKUTNYA",
+              body: "Hari-hari tetap bergerak dalam kebiasaan yang sama: ruang kelas, jalan pulang, dan hal-hal kecil yang kerap luput dari perhatian. Namun, di sela rutinitas itu, namamu mulai muncul lebih sering daripada yang kusadari. Belum banyak yang berubah, tetapi sejak kau hadir, hal-hal biasa seolah menyimpan arti yang sedikit berbeda.",
+              highlight: "Kehadiran yang baru",
+              meaning: {
+                ringkas: "Kehadiran yang mengubah hal biasa.",
+                makna: "Karya ini menggambarkan awal dari sebuah ketertarikan yang belum sepenuhnya disadari. Seseorang mulai mengambil tempat dalam pikiran, bukan melalui peristiwa besar, melainkan lewat kehadiran sederhana di tengah rutinitas. Hal-hal yang sebelumnya terasa biasa perlahan memperoleh arti baru, seolah dunia tidak berubah, tetapi cara seseorang memandangnya telah berbeda.",
+                simbol: "Rutinitas harian, nama yang mulai muncul",
+                hubungan: "Membuka SKETSA JATUH setelah TEMU, ketika kehadiran baru mulai mengubah cara memandang hal-hal biasa.",
+              },
+            },
+            {
+              id: "jatuh-02",
+              code: "#02",
+              title: "YANG KUTUNGGU",
+              body: "Ada saat-saat ketika kubuka ponsel tanpa tujuan, sekadar berharap namamu muncul di antara notifikasi yang lain. Sering kali, satu pesan darimu cukup untuk menggeser suasana hari yang semula biasa saja. Mungkin bagimu itu hanya kabar singkat, tetapi entah sejak kapan, ada bagian dari diriku yang selalu menanti namamu di layar.",
+              highlight: "Menanti kabarmu",
+              meaning: {
+                ringkas: "Menemukan seseorang dalam hal-hal yang dinantikan.",
+                makna: "Karya ini berbicara tentang bagaimana perhatian kecil dapat menjadi bagian penting dari keseharian. Sebuah pesan sederhana mampu mengubah suasana hati, sementara kehadiran seseorang mulai dinantikan bahkan tanpa alasan yang jelas. Tanpa disadari, seseorang telah menjadi bagian dari hal-hal kecil yang membuat hari terasa lebih berarti.",
+                simbol: "Layar ponsel, kabar yang dinantikan",
+                hubungan: "Melanjutkan JATUH #01: kehadiran yang semula sekadar disadari kini mulai dinantikan.",
+              },
+            },
+            {
+              id: "jatuh-03",
+              code: "#03",
+              title: "DI ANTARA CERITA",
+              body: "Kita bercerita tentang banyak hal, dari perkara yang penting hingga hal remeh yang mungkin tak akan kita ingat esok hari. Perlahan, aku mengenali caramu menyusun cerita, tawamu di tengah kalimat, juga jeda ketika kau sedang mencari kata yang tepat. Barangkali bukan cerita-cerita itu yang membuatku betah, melainkan perasaan bahwa waktu selalu berjalan lebih ringan saat aku mendengarkanmu.",
+              highlight: "Nyaman dalam percakapan",
+              meaning: {
+                ringkas: "Kedekatan yang tumbuh melalui percakapan.",
+                makna: "Karya ini menggambarkan bagaimana seseorang dapat merasa dekat melalui hal-hal yang dibagikan bersama. Percakapan sederhana perlahan membuka ruang untuk mengenali kebiasaan, pemikiran, dan sisi personal satu sama lain. Pada akhirnya, kenyamanan tidak selalu berasal dari apa yang dibicarakan, melainkan dari perasaan bahwa seseorang bersedia mendengarkan dan dipahami.",
+                simbol: "Percakapan, jeda sebelum menemukan kata",
+                hubungan: "Memperdalam JATUH #02 dari menanti kabar menjadi kedekatan yang tumbuh lewat cerita bersama.",
+              },
+            },
+            {
+              id: "jatuh-04",
+              code: "#04",
+              title: "KEBIASAAN BARU",
+              body: "Kini, setiap kali menemukan sesuatu yang menarik, ada dorongan kecil untuk segera membaginya denganmu. Sebuah lagu yang ingin kukirim, pemandangan yang sempat kutemui, atau kejadian remeh yang tiba-tiba terasa lebih berarti jika kau tahu. Tanpa pernah kurencanakan, kau mulai menjadi bagian dari banyak hal yang kulakukan, bahkan ketika kita sedang berjauhan.",
+              highlight: "Menjadi bagian dari hari",
+              meaning: {
+                ringkas: "Seseorang yang mulai menjadi bagian dari keseharian.",
+                makna: "Karya ini menunjukkan perubahan kecil yang muncul ketika ketertarikan berkembang menjadi kedekatan. Keinginan untuk membagikan hal-hal sederhana menjadi bentuk perhatian yang tidak selalu membutuhkan ungkapan langsung. Seseorang perlahan hadir dalam banyak bagian kehidupan, bahkan ketika jarak memisahkan keduanya.",
+                simbol: "Lagu yang ingin dikirim, jarak yang tak memisahkan",
+                hubungan: "Menerjemahkan kedekatan JATUH #03 menjadi kebiasaan membagi hal kecil, sebelum dipertanyakan maknanya pada JATUH #05.",
+              },
+            },
+            {
+              id: "jatuh-05",
+              code: "#05",
+              title: "SESUATU",
+              body: "Semakin banyak waktu kita habiskan untuk bercerita, semakin banyak hal kecil tentangmu yang menetap dalam ingatanku. Caramu mengingat sesuatu yang pernah kusebut sepintas, perhatian yang datang tanpa diminta, juga waktu yang kau sisihkan di tengah kesibukan. Hal-hal sederhana itu perlahan mengubah cara pandangku terhadap kedekatan ini. Aku mulai bertanya-tanya, apakah rasa nyaman yang selama ini kukenal telah tumbuh menjadi sesuatu yang lain.",
+              highlight: "Sesuatu yang berbeda",
+              meaning: {
+                ringkas: "Kesadaran bahwa kedekatan mulai memiliki arti berbeda.",
+                makna: "Karya ini membahas perubahan cara seseorang memandang sebuah hubungan. Perhatian yang konsisten dan hal-hal kecil yang sebelumnya dianggap biasa mulai meninggalkan kesan lebih dalam. Dari sana muncul pertanyaan tentang batas antara kenyamanan dan perasaan yang lebih besar, ketika sesuatu yang belum memiliki nama mulai terasa sulit untuk diabaikan.",
+                simbol: "Rasa nyaman yang mulai berubah arti",
+                hubungan: "Menjadi titik balik dari JATUH #04: kedekatan mulai dipertanyakan, menuju kesadaran pada JATUH #06.",
+              },
+            },
+            {
+              id: "jatuh-06",
+              code: "#06",
+              title: "TANPA KUSADARI",
+              body: "Aku tak tahu kapan perasaan ini mulai berubah. Tak ada satu kejadian yang bisa kutunjuk sebagai awalnya; semuanya berlangsung begitu pelan, nyaris tanpa suara. Kini, namamu tinggal lebih lama dalam pikiranku, dan kabarmu menjadi sesuatu yang ingin kutahu bahkan tanpa alasan untuk bertanya. Mungkin perasaan ini tumbuh di sela percakapan kita, di antara hari-hari yang berjalan seperti biasa. Saat akhirnya kusadari, aku sudah tak lagi memandang kehadiranmu dengan cara yang sama.",
+              highlight: "Perasaan yang tumbuh",
+              meaning: {
+                ringkas: "Perasaan yang tumbuh sebelum sempat dikenali.",
+                makna: "Karya ini menggambarkan bahwa jatuh hati tidak selalu memiliki awal yang jelas. Perasaan dapat tumbuh melalui kebiasaan, percakapan, dan kehadiran yang berulang, hingga akhirnya disadari ketika seseorang telah menempati ruang yang berbeda dalam pikiran. Ada hal-hal yang baru dapat dikenali setelah diam-diam menjadi bagian dari diri.",
+                simbol: "Perasaan yang tumbuh pelan, nyaris tanpa suara",
+                hubungan: "Menjawab pertanyaan JATUH #05: perasaan itu ternyata sudah tumbuh sebelum sempat dikenali.",
+              },
+            },
+            {
+              id: "jatuh-07",
+              code: "#07",
+              title: "ANTARA INGIN DAN TAKUT",
+              body: "Ada keinginan untuk melangkah lebih dekat, tetapi setiap kali hendak maju, keraguan seolah menarikku kembali. Aku takut satu pengakuan dapat mengubah sesuatu yang selama ini terasa begitu mudah dijalani, atau membuat kita asing di tempat yang semula terasa akrab. Bagaimana jika setelah semua keberanian itu terkumpul, yang tersisa justru jarak di antara kita? Ternyata, berharap pada seseorang juga berarti memberi ruang bagi kemungkinan kehilangan, bahkan sebelum apa pun benar-benar dimulai.",
+              highlight: "Takut kehilangan",
+              meaning: {
+                ringkas: "Kerentanan di balik keinginan untuk mendekat.",
+                makna: "Karya ini mengeksplorasi pertentangan antara keberanian dan ketakutan dalam menghadapi perasaan sendiri. Keinginan untuk melangkah lebih jauh berhadapan dengan kemungkinan kehilangan kedekatan yang telah dibangun. Sebab, ketika seseorang mulai berarti, harapan tidak lagi datang sendirian. Ia juga membawa ketakutan akan sesuatu yang mungkin berubah.",
+                simbol: "Jarak di antara dua orang, keraguan untuk maju",
+                hubungan: "Membawa kesadaran JATUH #06 ke pergulatan antara ingin dan takut, sebelum berubah menjadi kata yang tertahan pada JATUH #08.",
+              },
+            },
+            {
+              id: "jatuh-08",
+              code: "#08",
+              title: "YANG BELUM TERUCAP",
+              body: "Berkali-kali kususun kalimat itu dalam kepala, membayangkan bagaimana bunyinya jika suatu hari benar-benar sampai kepadamu. Namun, setiap kesempatan terbuka, aku justru memilih diam dan mengalihkan percakapan, seolah kata-kata yang tertahan masih dapat menjaga semuanya tetap seperti semula. Bukan perasaanku yang belum menemukan bentuk, melainkan keberanianku yang belum tahu apakah hatimu menyediakan ruang untuk mendengarnya.",
+              highlight: "Kata yang tertahan",
+              meaning: {
+                ringkas: "Kejujuran yang masih tertahan oleh ketidakpastian.",
+                makna: "Karya ini berbicara tentang perasaan yang sebenarnya telah dikenali, tetapi belum menemukan keberanian untuk disampaikan. Kata-kata terus disusun dalam pikiran, sementara kesempatan untuk mengungkapkannya justru dilewatkan. Bukan karena seseorang belum memahami hatinya, melainkan karena ia belum tahu bagaimana perasaannya akan diterima oleh orang yang dituju.",
+                simbol: "Kalimat yang tersusun di kepala, diam",
+                hubungan: "Melanjutkan ketakutan JATUH #07 menjadi kata-kata yang tertahan, dan membuka jalan bagi pembacaan isyarat pada JATUH #09.",
+              },
+            },
+            {
+              id: "jatuh-09",
+              code: "#09",
+              title: "KEMUNGKINAN",
+              body: "Aku mulai membaca kembali hal-hal kecil yang mungkin tak pernah kau maksudkan sebagai tanda: sesuatu tentangku yang masih kauingat, waktu yang kau sisihkan, atau percakapan yang terasa enggan diakhiri. Namun, aku tahu kebaikan tidak selalu menyimpan arti yang sama bagi dua orang, dan harapan mudah tumbuh dari sesuatu yang belum tentu nyata. Maka kubiarkan pertanyaan itu tinggal di antara kita, sembari diam-diam berharap bahwa kita sedang menunggu jawaban yang serupa.",
+              highlight: "Membaca isyarat",
+              meaning: {
+                ringkas: "Harapan yang tumbuh di antara isyarat dan prasangka.",
+                makna: "Karya ini menggambarkan kecenderungan seseorang untuk mencari makna dari perhatian kecil ketika mulai menyimpan harapan. Setiap tindakan dapat terasa seperti petunjuk, meskipun belum tentu memiliki maksud yang sama. Di sini, seseorang belajar menghadapi ketidakpastian antara apa yang benar-benar terjadi dan apa yang diam-diam ingin dipercayainya.",
+                simbol: "Isyarat kecil, tanda yang ditafsirkan",
+                hubungan: "Menunjukkan sisi lain JATUH #08: saat kata tertahan, harapan mencari pegangan pada isyarat, sebelum pengakuan pada JATUH #10.",
+              },
+            },
+            {
+              id: "jatuh-10",
+              code: "#10",
+              title: "MENGAKUI",
+              body: "Pada akhirnya, aku tak bisa lagi menyebutnya kebetulan atau sekadar rasa nyaman. Ada sesuatu yang selalu menarik pikiranku kembali kepadamu, bahkan ketika hari sedang dipenuhi hal lain. Setelah sekian lama berusaha mengabaikannya, aku berhenti mencari alasan untuk menyangkal apa yang kurasakan. Aku jatuh hati kepadamu, dan untuk pertama kalinya, kubiarkan diriku menyebut perasaan itu tanpa ragu.",
+              highlight: "Tak lagi berpura-pura",
+              meaning: {
+                ringkas: "Keberanian menerima perasaan sendiri.",
+                makna: "Karya ini menjadi titik ketika segala keraguan mulai menemukan kejelasan. Setelah berusaha menyangkal dan mencari alasan untuk mengabaikan perasaannya, seseorang akhirnya memilih untuk jujur terhadap dirinya sendiri. Mengakui bahwa ia jatuh hati menjadi bentuk keberanian pertama sebelum perasaan tersebut benar-benar dibagikan kepada orang lain.",
+                simbol: "Pengakuan pada diri sendiri",
+                hubungan: "Menjadi puncak dari keraguan JATUH #05–#09, sekaligus membuka jalan menuju keterbukaan pada JATUH #11.",
+              },
+            },
+            {
+              id: "jatuh-11",
+              code: "#11",
+              title: "MEMBERI RUANG",
+              body: "Mendekat berarti membiarkanmu melihat sisi-sisi diriku yang selama ini jarang kubuka. Ada kebiasaan yang mungkin sulit kau pahami, kekurangan yang belum sepenuhnya bisa kuterima, dan hari-hari ketika aku sendiri masih berusaha memahami diriku. Aku mulai mengerti bahwa kedekatan tak hanya tumbuh dari percakapan yang menyenangkan. Ada keberanian lain yang dibutuhkan: hadir tanpa terus menyembunyikan diri, lalu memberi ruang bagi satu sama lain untuk dikenal, termasuk pada bagian yang tak selalu mudah diperlihatkan.",
+              highlight: "Berani dikenal",
+              meaning: {
+                ringkas: "Keberanian untuk hadir tanpa menyembunyikan diri.",
+                makna: "Karya ini memperluas pemahaman tentang kedekatan, bahwa mengenal seseorang tidak cukup hanya melalui sisi-sisi yang menyenangkan. Ada kerentanan, kekurangan, dan bagian diri yang belum sepenuhnya dipahami. Memberi ruang berarti bersedia memperlihatkan diri secara lebih utuh sekaligus menerima bahwa orang lain juga memiliki sisi yang tidak selalu mudah dimengerti.",
+                simbol: "Kerentanan, sisi diri yang belum rapi",
+                hubungan: "Memperluas pengakuan JATUH #10 dari merasakan menjadi bersedia dikenal, sebagai persiapan memilih tinggal pada JATUH #12.",
+              },
+            },
+            {
+              id: "jatuh-12",
+              code: "#12",
+              title: "UNTUK TINGGAL",
+              body: "Kini, aku tak lagi ingin sekadar menjadi persinggahan dalam ceritamu. Aku ingin mengenal bagian-bagian dirimu yang belum sempat kauceritakan, merayakan hal-hal kecil bersamamu, dan tetap ada ketika hari-hari tidak selalu ramah. Aku tak membawa janji bahwa semuanya akan mudah; hanya keinginan untuk berjalan berdampingan, selama kita sama-sama ingin mencoba.",
+              highlight: "Memilih untuk tinggal",
+              meaning: {
+                ringkas: "Memilih untuk membangun kedekatan, bukan sekadar singgah.",
+                makna: "Karya ini menggambarkan perubahan dari keinginan untuk sekadar dekat menjadi kesediaan untuk menjalani hubungan dengan lebih sungguh-sungguh. Tinggal bukan berarti menjanjikan bahwa segala sesuatu akan berjalan sempurna, melainkan kesediaan untuk saling mengenal, menghadapi perubahan, dan tetap mencoba. Cinta mulai dipahami sebagai pilihan untuk berjalan bersama, bukan hanya perasaan yang menyenangkan.",
+                simbol: "Tinggal, berjalan berdampingan",
+                hubungan: "Menjawab perjalanan JATUH #01–#11 dengan keputusan untuk tinggal, lalu bermuara pada penutup “Bolehkah Aku Tinggal”.",
+              },
+            },
+          ],
+          closing: {
+            id: "jatuh-penutup",
+            title: "BOLEHKAH AKU TINGGAL",
+            body: "Dulu, kupikir menemukan seseorang berarti sampai pada tujuan yang selama ini kucari. Namun, hidup masih membentangkan banyak jalan, menyimpan pertanyaan yang belum terjawab, dan mempertemukanku dengan bagian-bagian diri yang belum sepenuhnya kukenal. Barangkali seseorang tidak datang untuk mengakhiri pencarian itu. Barangkali ia hanya membuat perjalanan panjang terasa lebih layak ditempuh.\n\nAku masih tak tahu ke mana perjalanan ini akan membawa kita. Kali ini, aku tak ingin tergesa meminta kepastian dari segala yang belum terjadi. Masih ada hari-hari yang belum kita kenal, juga kemungkinan yang belum sempat kita beri nama. Dan mungkin, untuk sekarang, itu sudah cukup: aku tak harus mengetahui akhir cerita untuk bersedia menjalaninya.",
+            highlight: "Berhenti berlari",
+            meaning: {
+              ringkas: "Menerima ketidakpastian dan memilih untuk tetap berjalan bersama.",
+              makna: "Penutup ini merangkum perjalanan emosional dari seluruh SKETSA JATUH. Setelah melalui ketertarikan, harapan, ketakutan, pengakuan, hingga keberanian untuk membuka diri, seseorang akhirnya memahami bahwa mencintai tidak selalu berarti menemukan tujuan akhir. Kehadiran seseorang tidak harus menjawab seluruh pertanyaan hidup atau mengakhiri pencarian terhadap diri sendiri. Pertanyaan “Bolehkah aku tinggal?” menjadi ungkapan keinginan untuk membangun sesuatu tanpa menuntut kepastian tentang masa depan. Ada kesadaran bahwa hubungan akan selalu berhadapan dengan perubahan dan hal-hal yang belum diketahui. Namun, ketidakpastian itu tidak lagi menjadi alasan untuk menghindar. Untuk pertama kalinya, seseorang bersedia menjalani perjalanan tanpa harus mengetahui bagaimana akhirnya.",
+              simbol: "Pertanyaan “Bolehkah aku tinggal?”, perjalanan tanpa akhir yang diketahui",
+              hubungan: "Menutup ARC 06 (JATUH) dan mengantar perjalanan menuju ARC 07 (PULANG), arc terakhir serial.",
+            },
+          },
         },
         {
           id: "pulang",
@@ -1188,9 +1355,10 @@
         {
           volume: "SKETSA JATUH",
           volumeId: "jatuh",
-          date: "Segera Hadir",
-          status: "SEGERA HADIR",
-          established: false,
+          // TODO(TANGGAL): sesuaikan dengan tanggal unggah di Instagram.
+          date: "22 November 2026",
+          status: "Established",
+          established: true,
           description:
             "Dirancang untuk mengeksplorasi kerentanan, cinta, dan keberanian untuk membuka diri. Tentang bagaimana seseorang menghadapi kemungkinan untuk jatuh, terluka, dan memilih untuk tetap tinggal.",
         },
@@ -2849,11 +3017,13 @@
 
               <div class="manuscript-card-footer font-mono" style="opacity:0.72;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;gap:0.5rem;">
                 <span>— ISSUE ${escapeHtml(current.label)} (${safeIdx + 1}/${slides.length}) —</span>
-                ${
-                  nextSlide && nextSlide.type === "content"
-                    ? `<button type="button" data-action="reader-next" class="font-mono" style="background:transparent;border:0;padding:0;font-size:inherit;letter-spacing:inherit;color:inherit;text-decoration:underline;text-underline-offset:3px;">KARYA BERIKUTNYA →</button>`
-                    : `<span>SLIDE ${safeIdx + 1} OF ${slides.length}</span>`
-                }
+                <a
+                  href="${escapeHtml(folder.instagram || "https://www.instagram.com/natharaarchive/")}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-mono"
+                  style="font-size:inherit;letter-spacing:inherit;color:inherit;text-decoration:underline;text-underline-offset:3px;"
+                >LIHAT DI INSTAGRAM ↗</a>
               </div>
             </div>
           `;
